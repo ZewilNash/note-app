@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><header>Task Manager</header></div>
+
+        <div class="form">
+            <input type="text" id="task" placeholder="Enter a task" />
+            <button id="add-task">Submit</button>
+        </div>
+        <div class="form edit hide" id="edit">
+            <input type="text" id="edit-task" placeholder="Enter a new task" />
+            <button id="edit-task-btn">Submit</button>
+        </div>
+
+    </div>
+
+    <div class="task-details">
+        <!-- <div class="task-added">
+            
+        </div> -->
+        
+    </div>
+
+    <span class="toast"></span>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.3/axios.min.js" integrity="sha512-wS6VWtjvRcylhyoArkahZUkzZFeKB7ch/MHukprGSh1XIidNvHG1rxPhyFnL73M0FC1YXPIXLRDAoOyRJNni/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="code.js"></script>
+</body>
+</html>
